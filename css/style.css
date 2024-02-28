@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* my app css start */
+.loginpage{
+    text-align: center;
+}
+.image img{
+ width: 450px;
+}
+.name{
+    padding: 10px;
+    font-size: 30px;
+    /* top: 0px; */
+}
+input{
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 14px 16px;
+    width: 360px;
+    border: 1px solid #dddfe2;
+    margin-top: 1px;
+}
+button{
+    background-color: #1877f2;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 13px 16px;
+    width: 360px;
+    margin-top: 12px;
+} 
+.link{
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 545;
+}
+.link a{
+    margin-left: 7px;
+    color: #1877f2;
+}
+/* my app css end */
+
+
+/* code capture1 css start  */
+.page{
+    display: flex;
+    margin: 140px auto;
+}
+.box{
+     margin-left: 120px;
+     display: flex;
+     flex-wrap: wrap;
+}
+.info{
+    justify-content: flex-start;
+    margin-left: 200px;
+}
+.colorfuldiv{
+    width: 120px;
+    height: 4px;
+    background: linear-gradient(to right, #dc2424, #4a569d);
+    margin-top: 30px;
+}
+.infosentence{
+ margin-top: 30px;
+}
+ .profession{
+    margin-top: 5px;
+    width: 42%;
+    height: 210px;
+    border: 2px solid #ebebeb;
+
+ }
+ .profession img{
+    width: 80px;
+    margin-left: 18px;
+    margin-top: 15px;
+ }
+ .profession h1{
+    color: #4A4A4A;
+    font-size: 23px;
+    margin-left: 19px;
+    margin-top: 70px;
+ }
+.dark{
+    font-size: 50px;
+    font-weight:900;
+    color: #4A4A4A;
+}
+.light{
+    font-size: 38px;
+    font-weight: 300;
+    margin-top: 3px;
+    color: #4A4A4A;
+}
+.profession:hover{
+    width: 48%;
+    height: 250px;
+}
+.syber:hover{
+  background-color: #17A05E;
+}
+.design:hover{
+    background-color: yellow;
+}
+.dmarketing:hover{
+    background-color: blueviolet;
+}
+.programming:hover{
+   background-color: #1877f2;
+}
+
+/* code capture1 css end  */
+
+
+
+/* code capture2 css start  */
+.allpage{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.left, .right{
+    width: 50%;
+    margin-top: 30px;
+}
+.case{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    height: 300px;
+}
+.case p{
+    font-size: 18px;
+    margin-top: 5px;
+    color: black;
+}
+.caseimg{
+    width: 30%;
+}
+.caseinfo{
+    width: 40%;
+}
+.case a{
+    text-decoration: none;
+    color: #4A4A4A;
+}
+.case img{
+    width: 90%;
+}
+.case h3{
+    margin-top: 23px;
+}
+.case h2{
+    font-size: 25px;
+
+}
+.left img{
+    margin-left: 135px;
+}
+.left .caseinfo{
+    margin-left: 160px;
+}
+.right .caseinfo{
+    margin-left: 25px;
+}
+/* code capture2 css end  */
